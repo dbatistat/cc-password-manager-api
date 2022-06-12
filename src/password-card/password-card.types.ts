@@ -1,15 +1,8 @@
-export type PasswordCard  = {
+export type PasswordCard = {
   readonly id: string;
   readonly name: string;
   readonly username: string;
   readonly password: string;
-  readonly url: string;
-};
-
-export type SecurePasswordCard  = {
-  readonly id: string;
-  readonly name: string;
-  readonly username: string;
   readonly url: string;
 };
 

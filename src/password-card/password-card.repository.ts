@@ -24,8 +24,8 @@ export class PasswordCardRepository {
 
   create(create: CreatePasswordCard): PasswordCard {
     const passwordCard: PasswordCard = {
-      id: uuid(),
       ...create,
+      id: uuid(),
     };
 
     this.passwordCards.push(passwordCard);

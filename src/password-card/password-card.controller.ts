@@ -26,7 +26,6 @@ export class PasswordCardController {
   }
 
   @Get(':id')
-  @UseInterceptors(SecurePasswordCardInterceptor)
   getById(@Param('id') id: string): PasswordCard {
     return this.passwordCardService.getById(id);
   }

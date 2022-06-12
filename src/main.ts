@@ -26,6 +26,11 @@ async function bootstrap() {
     }),
   );
 
+  app.use((req, res, next) => {
+    res.set('Cache-Control', 'no-store');
+    next();
+  });
+
   // register validation pipe for all route handlers
   app.useGlobalPipes(new ValidationPipe({validationError: {target: false}}));
 
