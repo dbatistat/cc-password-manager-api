@@ -1,8 +1,8 @@
-# Coding Challenge "Password Manager UI"
+# Coding Challenge "Password Manager API"
 
 ## Frontend project
 
-You can use the backend project here: [Password Manager API](https://github.com/dbatistat/cc-password-manager-ui)
+You can use the backend project here: [Password Manager UI](https://github.com/dbatistat/cc-password-manager-ui)
 
 ## Running the app
 
